@@ -1,0 +1,259 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    scroll-behavior: smooth;
+}
+
+body{
+    min-height: 100vh;
+    overflow-x: hidden;
+    background: linear-gradient(#2b1055, #7597de);
+}
+
+header{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 30px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 10000;
+}
+
+header .nombre{
+    color: #fff;
+    font-weight: 700;
+    text-decoration: none;
+    font-size: 2em;
+    letter-spacing: 2px;
+}
+
+header ul{
+    display: flex ;
+    justify-content: center;
+    align-items: center;
+}
+
+header ul li{
+    list-style: none;
+    margin-left: 20px;
+}
+
+header ul li a{
+    text-decoration: none;
+    padding: 6px 15px;
+    color: #fff;
+}
+
+header ul li a:hover,
+header ul li a.active{
+    background: #fff;
+    color: #2b1055;
+}
+
+section{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    padding: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+section::before{
+    content: '';
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 100px;
+    background: linear-gradient(to top, #1c0522, transparent);
+    z-index: 1000;
+}
+section img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    pointer-events: none;
+}
+
+
+#text{
+    position: absolute;
+    right: -350px;
+    color: #fff;
+    white-space: nowrap;
+    font-size: 7.5vw;
+    z-index: 0;
+}
+
+#btn{
+    text-decoration: none;
+    display: inline-block;
+    padding: 8px 30px;
+    border-radius: 40px;
+    background: #fff;
+    color: #2b1055;
+    font-size: 1.5em;
+    z-index: 9;
+    transform: translateY(100px);
+}
+
+.sec{
+    position: relative;
+    padding: 100px;
+    background: #1c0522;
+
+}
+
+.sec h2{
+    font-size: 3.5em;
+    margin-bottom: 10px;
+    color: #fff;
+    
+}
+
+.sec p{
+    color: #fff;
+}
+
+.sec p1{
+    font-size: 1em;
+    color: #fff;
+}
+
+.row{
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+
+
+.Course{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 100px;
+
+}
+
+
+
+p3{
+    color: #1c0522;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 22px;
+    padding: 10px;
+}
+.Courser-col{
+    flex-basis: 31%;
+    background: #fff3f3;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    padding: 20px 12px;
+    box-sizing: border-box;
+    transition: 0.5s;
+}
+
+.Courser-col:hover{
+    box-shadow: 0 0 20px 0px rgba(161, 9, 9, 0.2);
+}
+
+h3{
+    font-size: 36px;
+    font-weight: 600;
+    margin: 10px 0;
+    
+}
+
+
+.videocryp{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    padding: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+
+.monedas{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 50px;
+}
+
+.monedas-col{
+    flex-basis: 32%;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    position: relative;
+    overflow: hidden;
+}
+
+.monedas-col img{
+    width: 50%;
+    display: block;
+}
+
+.layer{
+    background: transparent;
+    height: 100%;
+    width: 50%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: 0.5s;
+}
+
+.layer:hover{
+    background: rgba(226,0,0,0.7);
+
+}
+
+.layer h3{
+    width: 50%;
+    font-weight: 500;
+    color: rgb(8, 8, 8);
+    font-size: 26px;
+    position: absolute;
+    bottom: 0;
+    transition: 0.5s;
+}
+
+.layer:hover h3{
+    bottom: 49%;
+    opacity: 1;
+}
+
+
+.footer-basic {
+    padding:40px 0;
+    background-color:#ffffff;
+    color:#4b4c4d;
+  }
+
+.footer-basic .copyright {
+    margin-top:15px;
+    text-align: center;
+    font-size:13px;
+    color:#aaa;
+    margin-bottom:0;
+  }
+
+
